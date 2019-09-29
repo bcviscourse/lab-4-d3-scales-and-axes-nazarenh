@@ -6,6 +6,23 @@
 /****************/
 /*   BAR-CHART  */
 /****************/
+h2{
+  font-family: Optima, Futura, sans-serif;
+  text-align: center;
+  color: orange;
+  margin-top: 80px;
+}
+
+body{
+  background-color:black;
+  /* align-content: center; */
+}
+svg{
+  background-color: black;
+  position: relative;
+  display: block;
+  margin: auto;
+}
 
 .bar {
   fill: #3C948B;
@@ -34,4 +51,46 @@
 .axis-label {
   fill: #888;
   font-size: 10px;
+}
+
+.axis path,
+.axis line {
+    stroke: white;
+    shape-rendering: crispEdges;
+    padding: 20;
+}
+
+.axis text {
+    font-family: Optima, Futura, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    fill: orange;
+}
+
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 160px;
+  height: 140px;
+  padding: 10px;
+  padding-top:13px;
+  font: 15px sans-serif;
+  background: orange;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+  text-align: center;
+  border-style: groove;
+  border-color: red;
+  border-width: 2px;
+  color: black;
+}
+
+text#xtitle{
+  font-size: 17px;
+}
+
+text#ytitle{
+  font-size: 17px;
 }
