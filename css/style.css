@@ -6,6 +6,15 @@
 /****************/
 /*   BAR-CHART  */
 /****************/
+p{
+  text-align: center;
+  color: orange;
+  margin-bottom: 0px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 h2{
   font-family: Optima, Futura, sans-serif;
   text-align: center;
@@ -22,6 +31,7 @@ svg{
   position: relative;
   display: block;
   margin: auto;
+  margin-top: 0px;
 }
 
 .bar {
